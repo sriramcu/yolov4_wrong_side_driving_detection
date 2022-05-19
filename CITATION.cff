@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- given-names: "Sriram Cummaragunta"
+  orcid: "https://orcid.org/0000-0001-5159-8987"
+- given-names: "Srinandan K S"
+  orcid: "https://orcid.org/0000-0001-5867-3425"
+title: "Wrong Side Driving Detection using YOLOv4"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2021-08-14
+url: "https://github.com/sriramcu/yolov4_wrong_side_driving_detection"
