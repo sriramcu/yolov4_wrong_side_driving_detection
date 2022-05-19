@@ -88,7 +88,7 @@ def load_darknet_network() -> tuple:
     and the darknet frame's height and width
     """
     d = os.path.abspath(os.getcwd())  # so that we are in the correct directory to access weights and network files
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))  # change to darknet folder
     network, class_names, class_colors = darknet.load_network(
         config_file,
         data_file,
