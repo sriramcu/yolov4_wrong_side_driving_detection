@@ -20,3 +20,4 @@ analys*
 *.mp4
 **/temp*
 video_predictions.txt
+*.pyc
