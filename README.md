@@ -7,6 +7,8 @@ A detailed readme will be added shortly, for the time being visit the following 
 https://colab.research.google.com/drive/1NRB-nGhETnX__uSjhpI4iyur-jXOMtL-  
 
 ## Steps to run on local machine  
-`git clone https://github.com/sriramcu/yolov4_wrong_side_driving_detection`
-`cd yolov4_wrong_side_driving_detection`
-`chmod +x setup.sh
+`git clone https://github.com/sriramcu/yolov4_wrong_side_driving_detection`  
+`cd yolov4_wrong_side_driving_detection`  
+`chmod +x setup.sh`  
+`./setup.sh`  
+`py wrong_side_driving_detection.py --show_frames 1`  
