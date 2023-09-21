@@ -6,6 +6,9 @@ A detailed readme will be added shortly, for the time being visit the following 
   
 https://colab.research.google.com/drive/1NRB-nGhETnX__uSjhpI4iyur-jXOMtL-  
 
+A paper has been published in IJTES, Volume 2, Issue 3, July-2022.:
+https://mapscipub.com/download/2192/
+
 ## Steps to run on local machine  
 `git clone https://github.com/sriramcu/yolov4_wrong_side_driving_detection`  
 `cd yolov4_wrong_side_driving_detection`  
