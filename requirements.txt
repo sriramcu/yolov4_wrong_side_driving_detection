@@ -2,3 +2,4 @@ matplotlib
 numpy
 opencv_python
 python_firebase
+youtube-dl

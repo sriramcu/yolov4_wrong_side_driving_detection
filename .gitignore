@@ -21,3 +21,8 @@ analys*
 **/temp*
 video_predictions.txt
 *.pyc
+*.Identifier
+*.o
+darknet/darknet
+darknet/libdarknet.so
+darknet/uselib
