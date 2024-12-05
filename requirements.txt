@@ -3,3 +3,7 @@ numpy
 opencv_python
 python_firebase
 youtube-dl
+pyrebase
+scipy
+json2table
+pyrebase4
