@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/36048d51-5299-4fbf-9c37-1d417ceca5c4
 
 ### Training (Optional)
 
-The model has already been trained and the inference notebook uses the weights we stored in Drive from the training phase. If you want to train it yourself, then visit the following colab notebook to train the model:
+The model has already been trained and the inference notebook uses the weights we stored in Google Drive from the training phase. If you want to train it yourself, then visit the following colab notebook to train the model:
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sriramcu/yolov4_wrong_side_driving_detection/blob/master/notebooks/Training.ipynb)
 
 ### Inference
