@@ -4,7 +4,7 @@ A Computer Vision (YOLOv4) based project to autonomously detect and penalise veh
 
 A detailed readme will be added shortly, for the time being visit the following colab notebook to view a demo of our project:  
   
-https://colab.research.google.com/drive/1NRB-nGhETnX__uSjhpI4iyur-jXOMtL-  
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sriramcu/yolov4_wrong_side_driving_detection/blob/master/notebooks/Yolov4_WrongSideDetection.ipynb)
 
 A paper has been published in IJTES, Volume 2, Issue 3, July-2022.:
 https://mapscipub.com/download/2192/
