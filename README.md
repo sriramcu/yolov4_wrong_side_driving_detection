@@ -2,6 +2,13 @@
 
 A Computer Vision (YOLOv4) based project to autonomously detect and penalise vehicles driving on the wrong side of the road.  
 
+![alt text](screenshots/program_output.jpg)
+
+
+## Overview
+
+![alt text](screenshots/Methodology.jpg)
+
 
 ## Run Project in Colab
 
@@ -28,6 +35,7 @@ Visit the following colab notebook to view a demo of our project:
 4. CUDNN 9.3
 5. Tensorflow 2.18.0
 6. NVIDIA GeForce RTX 3060 Laptop GPU - thus Makefile contains the corresponding line: `ARCH= -gencode arch=compute_86,code=[sm_86,compute_86]`
+7. FFMPEG
 
 ### Setup
 

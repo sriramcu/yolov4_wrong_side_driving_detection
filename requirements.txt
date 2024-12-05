@@ -7,3 +7,4 @@ pyrebase
 scipy
 json2table
 pyrebase4
+yt_dlp

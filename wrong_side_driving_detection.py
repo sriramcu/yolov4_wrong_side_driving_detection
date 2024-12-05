@@ -19,7 +19,8 @@ import time
 import cv2
 import numpy as np
 import argparse
-import youtube_dl
+# import youtube_dl
+import yt_dlp as youtube_dl
 import utils.firebasecode as firebasecode
 from utils.annotate_img import annotate_img
 from utils.centroidtracker import CentroidTracker
@@ -317,14 +318,16 @@ def main(program_args):
     if program_args.input_mode == 'yt':
         try:
             ip_link = program_args.youtube_link
-            ydl_opts = {'ignoreerrors': True, 'outtmpl': '%(title)s.%(ext)s', 'format': '135'}
+            ydl_opts = {'format': 'bestvideo+bestaudio/best',  'outtmpl': '%(title)s.%(ext)s'}
+
             # make sure your input yt link has at least a 480p stream and in mp4
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 ydl.download([ip_link])
                 info_dict = ydl.extract_info(ip_link, download=False)
                 video_title = info_dict.get('title', None)
+                video_extension = info_dict.get('ext', 'mp4')  # Default to mp4 if not found
             print("Input video downloaded from YouTube")
-            vidfile = video_title + '.mp4'
+            vidfile = video_title + "." + video_extension
 
         except Exception as e:
             print(e)
