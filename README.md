@@ -62,7 +62,7 @@ optional arguments:
                         https://www.youtube.com/watch?v=ATq6ZbRQtDY  
   `--input_mode INPUT_MODE`  
                         Mode of input, yt for youtube, fl for file, default:
-                        yt
+                        yt  
   `--profile PROFILE`     
   Perform Python profiling to analyse bottlenecks,
                         default: 0  
