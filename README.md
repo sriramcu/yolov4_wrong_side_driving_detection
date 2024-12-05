@@ -7,6 +7,10 @@ A Computer Vision (YOLOv4) based project to autonomously detect and penalise veh
 
 ## Overview
 
+
+https://github.com/user-attachments/assets/36048d51-5299-4fbf-9c37-1d417ceca5c4
+
+
 ![alt text](screenshots/Methodology.jpg)
 
 
