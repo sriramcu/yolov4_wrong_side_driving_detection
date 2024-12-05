@@ -66,12 +66,15 @@ optional arguments:
   `--profile PROFILE`     
   Perform Python profiling to analyse bottlenecks,
                         default: 0  
-  `--save_output_video` SAVE_OUTPUT_VIDEO
+  `--save_output_video` 
+  SAVE_OUTPUT_VIDEO
                         Save output video file, default: 1  
   `--show_frames SHOW_FRAMES`
+
                         Show output frames as detection is taking place,
                         default: 0  
   `--use_firebase USE_FIREBASE`
+  
                         Use your firebase db to store violation images, make
                         sure to create sensitive_data.json in the same
                         directory as this program, default: 0
