@@ -31,12 +31,47 @@ Visit the following colab notebook to view a demo of our project:
 
 ### Setup
 
-`chmod +x setup.sh`  
-`./setup.sh`  
+1. Change `ARCH` variable according to your GPU in `Makefile`, if you have a different GPU.
+2. `chmod +x setup.sh`  
+3. `./setup.sh`  
+
+The setup script will install the required packages and download the weights from Google Drive for YOLOv4. It will also make necessary changes to some flags in the Makefile and then compile. If you don't have a GPU, use the `nogpu_localsetup.sh` script instead.
 
 ## Run Project
 
 `python wrong_side_driving_detection.py --show_frames 1`  
+
+usage: wrong_side_driving_detection.py [-h] [--input INPUT]
+                                       [--youtube_link YOUTUBE_LINK]
+                                       [--input_mode INPUT_MODE]
+                                       [--profile PROFILE]
+                                       [--save_output_video SAVE_OUTPUT_VIDEO]
+                                       [--show_frames SHOW_FRAMES]
+                                       [--use_firebase USE_FIREBASE]
+
+Run the Wrong Side detection code
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input INPUT         input video file path, default:
+                        demo_data/thai_cctv.mp4
+  --youtube_link YOUTUBE_LINK
+                        input video youtube link, default:
+                        https://www.youtube.com/watch?v=ATq6ZbRQtDY
+  --input_mode INPUT_MODE
+                        Mode of input, yt for youtube, fl for file, default:
+                        yt
+  --profile PROFILE     Perform Python profiling to analyse bottlenecks,
+                        default: 0
+  --save_output_video SAVE_OUTPUT_VIDEO
+                        Save output video file, default: 1
+  --show_frames SHOW_FRAMES
+                        Show output frames as detection is taking place,
+                        default: 0
+  --use_firebase USE_FIREBASE
+                        Use your firebase db to store violation images, make
+                        sure to create sensitive_data.json in the same
+                        directory as this program, default: 0
 
 ## Publication
 
