@@ -70,7 +70,7 @@ optional arguments:
                         Save output video file, default: 1  
   `--show_frames SHOW_FRAMES`
                         Show output frames as detection is taking place,
-                        default: 0
+                        default: 0  
   `--use_firebase USE_FIREBASE`
                         Use your firebase db to store violation images, make
                         sure to create sensitive_data.json in the same
